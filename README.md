@@ -8,9 +8,10 @@ HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别�
 1. HWDB1.0数据集处理.py
 2. MobileNet V2.0网络结构.py
 3. 模型训练.py
-4. 服务端.py
-5. 用户端网页.html .css
-6. 基于Canvas的网页手写输入.js 
+4. 基于水平垂直投影分割的手写检测.py
+5. 服务端.py
+6. 用户端网页.html .css
+7. 基于Canvas的网页手写输入.js 
 
 ## 未来计划（还不知道什么时候再研究）
 
