@@ -3,6 +3,8 @@ HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别�
 
 [![](https://img.shields.io/badge/%E5%BC%80%E5%8F%91%E8%80%85-杰瑞雾里-brightgreen)](https://www.wangjiayi.cool)
 
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+
 ## 项目说明（先占个地 代码懒得上传）
 
 1. HWDB1.0数据集处理.py
