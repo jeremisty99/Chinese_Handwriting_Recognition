@@ -1,0 +1,2 @@
+# Chinese_Handwriting_Recognition
+基于OpenCV和CNN的汉字手写识别系统
