@@ -1,9 +1,11 @@
 # Chinese_Handwriting_Recognition
 HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别系统
 
-[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+[![svg](https://img.shields.io/badge/%E5%BC%80%E5%8F%91%E8%80%85-%E6%9D%B0%E7%91%9E%E9%9B%BE%E9%87%8C-80a7c5)](https://wangjiayi.cool)
 
-## 项目说明（先占个地 代码懒得上传）
+![svg](https://forthebadge.com/images/badges/made-with-python.svg)
+![svg](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![svg](./badge.svg)
 
 1. HWDB1.0数据集处理.py
 2. MobileNet V2.0网络结构.py
