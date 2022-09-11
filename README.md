@@ -5,7 +5,7 @@ HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别�
 
 ![svg](https://forthebadge.com/images/badges/made-with-python.svg)
 ![svg](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![svg](./badge.svg)
+![svg](https://github.com/WangJerry1229/WangJerry1229/raw/main/badge.svg)
 
 ## 项目介绍（先占坑 文件待上传）
 1. HWDB1.0数据集处理.py
