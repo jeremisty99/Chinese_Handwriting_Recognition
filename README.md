@@ -1,11 +1,9 @@
 # Chinese_Handwriting_Recognition
 HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别系统
 
-[![svg](https://img.shields.io/badge/%E5%BC%80%E5%8F%91%E8%80%85-%E6%9D%B0%E7%91%9E%E9%9B%BE%E9%87%8C-80a7c5)](https://wangjiayi.cool)
-
 ![svg](https://forthebadge.com/images/badges/made-with-python.svg)
 ![svg](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![svg](https://github.com/WangJerry1229/WangJerry1229/raw/main/badge.svg)
+[![svg](https://github.com/WangJerry1229/WangJerry1229/raw/main/badge.svg)](https://wangjiayi.cool)
 
 ## 项目介绍（先占坑 文件待上传）
 1. HWDB1.0数据集处理.py
