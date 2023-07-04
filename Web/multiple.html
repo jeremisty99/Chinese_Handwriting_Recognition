@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>汉字手写识别</title>
+    <link rel="stylesheet" href="./static/css/global.css">
+    <link rel="stylesheet" href="./static/layui/css/layui.css">
+    <script type="text/javascript" src="./static/layui/layui.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.multiple.js"></script>
+</head>
+
+<body>
+    <div class="layui-header header">
+        <div class="layui-container">
+            <div id="title"><i class="logo iconfont icon-hanzi"></i><div class="title-text">汉字手写识别</div></div>
+            <ul class="layui-nav">
+                <li class="layui-nav-item">
+                    <a href="./index.html">单字识别</a>
+                </li>
+                <li class="layui-nav-item layui-this">
+                    <a href="multiple.html">多文本识别</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-container" style="margin-top:50px;">
+        <div class="layui-row">
+            <div class="layui-col-md12">
+                <div style="color: #aaaaaa; margin-bottom: 10px;">目前支持: 一, 业, 北, 大, 子, 学, 家, 工, 恒, 杨, 松, 河, 涵, 王, 赵, 路
+                    共16个字</div>
+                <div style="color: #aaaaaa; margin-bottom: 10px;">单行识别效果较好 (理论上支持两行及以上 效果未知)</div>
+                <canvas style="border:2px solid #EEEEEE; margin: 0 auto;" id="main"></canvas>
+                <div style="margin-top: 20px;">
+                    <button id="clear" class="layui-btn">清除</button>
+                    <button id="text" style="margin-left: 30px;" class="layui-btn layui-btn-normal">提交</button>
+                    <button id="upload" style="margin-left: 30px;" class="layui-btn layui-btn-warm">上传图片 </button>
+                </div>
+            </div>
+            <div style="margin-top: 20px;" class="layui-col-md12">
+                <div class="layui-row">
+                    <div class="layui-col-md6 layui-xs-12">
+                        <div id="result-text">
+                            <p class="result-title">文字识别结果:</p>
+                            <div id="result-multiple"></div>
+                        </div>
+                    </div>
+                    <div class="layui-col-md6 layui-xs-12">
+                        <p class="result-title">图片识别结果:</p>
+                        <div id="result-area"> <img id="result-img" src=""></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>汉字手写识别 计182</p>
+        <p>小组成员 : 杨松 王家一 路大恒 赵子涵</p>
+    </footer>
+</body>
+</html>

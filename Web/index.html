@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>汉字手写识别</title>
+    <link rel="stylesheet" href="./static/css/global.css">
+    <link rel="stylesheet" href="./static/layui/css/layui.css">
+    <script type="text/javascript" src="./static/layui/layui.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.main.js"></script>
+</head>
+
+<body>
+    <div class="layui-header header">
+        <div class="layui-container">
+            <div id="title"><i class="logo iconfont icon-hanzi"></i><div class="title-text">汉字手写识别</div></div>
+            <ul class="layui-nav">
+                <li class="layui-nav-item layui-this">
+                    <a href="index.html">单字识别</a>
+                </li>
+                <li class="layui-nav-item ">
+                    <a href="./multiple.html">多文本识别</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-container" style="margin-top:50px;">
+        <div class="layui-row">
+            <div class="layui-col-md6 layui-xs-12">
+                <div style="color: #aaaaaa; margin-bottom: 10px;">目前支持: 一, 业, 北, 大, 子, 学, 家, 工, 恒, 杨, 松, 河, 涵, 王, 赵, 路
+                    共16个字</div>
+                <canvas style="border:2px solid #EEEEEE; margin:0 auto; " id="main"></canvas>
+                <div style="margin-top: 20px;">
+                    <button id="clear" class="layui-btn ">清除</button>
+                    <button id="text" style="margin-left: 30px;" class="layui-btn layui-btn-normal">提交</button>
+                </div>
+            </div>
+            <div class="layui-col-md6 layui-xs-12">
+                <div id="result-row" class="layui-row">
+                    <div class="layui-col-md6 layui-col-xs6">
+                        <div style="width: 64px; font-weight: bold;">缩略图:</div>
+                        <canvas id="input" style="border:1px solid #EEEEEE;margin-top: 5px;" width="64px"
+                            height="64px"></canvas>
+                    </div>
+                    <div class="layui-col-md6 layui-col-xs6">
+                        <div style="width: 70px; font-weight: bold;">识别结果:</div>
+                        <div id="result"></div>
+                    </div>
+                </div>
+
+                <table id="output" class="layui-table lay-even lay-skin=" nob">
+                    <thead>
+                        <th style="text-align: center;" width="12%">序号</th>
+                        <th style="text-align: center;" width="44%">预测结果</td>
+                        <th style="text-align: center;" width="44%">预测概率</td>
+                    </thead>
+                    <tr>
+                        <th style="text-align: center;">0</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">1</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">2</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">5</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">6</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">7</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">8</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">9</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>汉字手写识别 计182</p>
+        <p>小组成员 : 杨松 王家一 路大恒 赵子涵</p>
+    </footer>
+</body>
+<script>
+</script>
+
+</html>
