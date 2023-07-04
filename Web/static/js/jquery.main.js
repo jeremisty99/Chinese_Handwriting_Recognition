@@ -124,8 +124,7 @@ class Main {
         var datas = fd;
         // alert(inputs)
         $.ajax({
-            url: 'https://wangjiayi.fun/api/ocr/single_predict',
-            // url: 'http://127.0.0.1:8000/single_predict',
+            url: 'http://127.0.0.1:8000/single_predict',
             method: 'Post',
             type: 'POST',
             processData: false,

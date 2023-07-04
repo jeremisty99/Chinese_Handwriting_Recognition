@@ -105,8 +105,7 @@ class Main {
         var datas = fd;
         // alert(inputs)
         $.ajax({
-            url: 'https://wangjiayi.fun/api/ocr/multiple_predict',
-            // url: 'http://127.0.0.1:8000/multiple_predict',
+            url: 'http://127.0.0.1:8000/multiple_predict',
             method: 'Post',
             type: 'POST',
             processData: false,
@@ -137,8 +136,7 @@ $(() => {
         var layer = layui.layer;
         var uploadInst = upload.render({
             elem: '#upload', //绑定元素
-            url: 'https://wangjiayi.fun/api/ocr/upload',
-            // url: 'http://127.0.0.1:8000/upload',
+            url: 'http://127.0.0.1:8000/upload',
             before: function (obj) {
                 layer.msg('正在上传识别', {
                     icon: 16,
