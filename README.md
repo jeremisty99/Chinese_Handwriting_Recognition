@@ -8,13 +8,16 @@ HEBUT大四上学期校内实习项目 基于OpenCV和CNN的汉字手写识别�
 ## 项目介绍
 1. Model 
    - HWDB1.0数据集处理脚本 (hwdb.py)
+
+     数据集下载地址: http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html
+
    - MobileNet V2网络结构
-   - 添加了一个基于LeNet5的基础版本 (LeNet5)
+   - 添加了一个基于LeNet5的基础版本 (\LeNet5)
    - 模型训练测试 (train.py test.py)
    - 基于水平垂直投影分割的位置检测 (projection_detect.py）
-2. Server
+3. Server
    - 基于Flask的服务端 (server.py)
-3. Web
+4. Web
    - 用户端网页展示 (index.html multiple.html)
    - 基于Canvas的网页手写输入
 
